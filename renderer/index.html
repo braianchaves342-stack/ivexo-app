@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111214">
+  <title>I AM / IVEXO</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="filament" aria-hidden="true"></div>
+  <div class="grid" aria-hidden="true"></div>
+  <header class="top">
+    <b>I AM / IVEXO</b>
+    <span id="portLabel"></span>
+    <nav id="desktopBar" class="desktop-bar" aria-label="Escritorios"></nav>
+    <button id="btnOverview" type="button">Vista general</button>
+    <button id="btnAlign" type="button">Alinear arriba</button>
+    <button id="btnSave" type="button">Guardar</button>
+  </header>
+  <main id="desk" aria-label="Escritorio IVEXO"></main>
+  <nav class="dock" aria-label="Dock">
+    <button data-open="web" type="button">Web</button>
+    <button data-open="doc" type="button">Documento</button>
+    <button data-open="files" type="button">Archivos</button>
+    <button data-open="stream" type="button">Steam</button>
+    <button data-open="calc" type="button">Cálculo</button>
+    <button data-open="jenny" class="jenny" type="button">Jenny</button>
+    <button data-open="settings" type="button">Ajustes</button>
+    <button data-open="notes" type="button">Notas</button>
+    <button data-open="monitor" type="button">Monitor</button>
+  </nav>
+  <div id="overlayRoot"></div>
+  <script src="app.js"></script>
+</body>
+</html>
